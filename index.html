@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grizzly Car Protection — Κεραμική Προστασία &amp; Detailing στη Θεσσαλονίκη</title>
+<meta name="description" content="Κεραμική προστασία, μεμβράνη προστασίας χρώματος (PPF) και detailing αυτοκινήτου στη Θεσσαλονίκη. Θωράκισε το αμάξι σου.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoWash",
+  "name": "Grizzly Car Protection Detailing",
+  "description": "Κεραμική προστασία, PPF και detailing αυτοκινήτου στη Θεσσαλονίκη",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Θεσσαλονίκη",
+    "addressCountry": "GR"
+  },
+  "priceRange": "€€"
+}
+</script>
+<style>
+:root{
+  --pitch:#15110C;        /* ζεστό σκούρο — κάρβουνο/αρκούδα */
+  --bark:#211910;         /* πάνελ */
+  --bark-2:#2C2114;
+  --bone:#EFE7D8;         /* ζεστό κρεμ κείμενο */
+  --gun:#9A8F7C;          /* gunmetal/άμμος δευτερεύον */
+  --amber:#E8862E;        /* safety amber — κύριο accent */
+  --claw:#B8431C;         /* βαθύ rust — δευτερεύον accent */
+  --line:#3A2D1C;
+  --radius:4px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+body{font-family:'Barlow',system-ui,sans-serif;background:var(--pitch);color:var(--bone);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,.display{font-family:'Anton',sans-serif;font-weight:400;letter-spacing:.01em;text-transform:uppercase}
+.cond{font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.06em}
+
+/* Demo ribbon */
+.demo-ribbon{background:var(--claw);color:#fff;text-align:center;font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:7px 12px}
+
+/* Header */
+header{position:sticky;top:0;z-index:50;background:rgba(21,17,12,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{max-width:1080px;margin:0 auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-family:'Anton',sans-serif;font-size:1.3rem;letter-spacing:.02em;line-height:1}
+.logo .claw{color:var(--amber);font-size:1.4rem}
+.logo small{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:600;font-size:.6rem;letter-spacing:.24em;color:var(--gun)}
+.nav-links{display:none;gap:26px;font-size:.82rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.nav-links a{text-decoration:none;color:var(--gun)}
+.nav-links a:hover,.nav-links a:focus-visible{color:var(--bone)}
+.call-pill{display:inline-flex;align-items:center;gap:8px;background:var(--amber);color:#1A1206;text-decoration:none;font-weight:700;font-size:.85rem;padding:11px 18px;border-radius:var(--radius);transition:transform .15s ease;white-space:nowrap}
+.call-pill:hover,.call-pill:focus-visible{transform:scale(1.04)}
+@media(min-width:840px){.nav-links{display:flex}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;max-width:1080px;margin:0 auto;padding:54px 20px 36px}
+.hero-grid{display:grid;gap:36px}
+@media(min-width:880px){.hero-grid{grid-template-columns:1.1fr .9fr;align-items:center}}
+.eyebrow{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:.86rem;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);margin-bottom:14px}
+h1{font-size:clamp(2.6rem,9vw,4.6rem);line-height:.92;max-width:12ch}
+h1 span{color:var(--amber)}
+.hero p.lede{margin:20px 0 28px;color:var(--gun);max-width:40ch;font-size:1.05rem}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;font-size:1rem;padding:16px 28px;border-radius:var(--radius);transition:transform .15s ease;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em}
+.btn:hover,.btn:focus-visible{transform:translateY(-2px)}
+.btn-primary{background:var(--amber);color:#1A1206}
+.btn-ghost{border:1px solid var(--line);background:var(--bark);color:var(--bone)}
+
+/* Signature: protection shield */
+.shield{position:relative;background:var(--bark);border:1px solid var(--line);border-radius:10px;padding:28px 24px;overflow:hidden}
+.shield::before{content:"";position:absolute;inset:0;background:radial-gradient(120% 80% at 50% -10%,rgba(232,134,46,.14),transparent 60%);pointer-events:none}
+.shield-badge{display:flex;align-items:center;gap:14px;margin-bottom:20px;position:relative}
+.shield-ico{width:54px;height:60px;flex-shrink:0;background:var(--amber);color:#1A1206;clip-path:polygon(50% 0,100% 18%,100% 64%,50% 100%,0 64%,0 18%);display:flex;align-items:center;justify-content:center;font-size:1.6rem;font-weight:700}
+.shield-badge h3{font-size:1.5rem;line-height:1}
+.shield-badge .cond{color:var(--gun);font-size:.8rem;display:block;margin-top:4px}
+.levels{display:flex;flex-direction:column;gap:14px;position:relative}
+.level{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px}
+.level .lbl{font-family:'Barlow Condensed',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:.92rem}
+.bar{height:9px;background:var(--bark-2);border-radius:5px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--claw),var(--amber));border-radius:5px}
+.level .yr{font-family:'Barlow Condensed',sans-serif;color:var(--gun);font-size:.82rem;white-space:nowrap}
+.shield-note{margin-top:18px;font-size:.78rem;color:var(--gun);position:relative}
+
+/* Sections */
+section{max-width:1080px;margin:0 auto;padding:60px 20px}
+.sec-head{margin-bottom:32px}
+.sec-head .idx{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.16em;color:var(--amber);font-size:.84rem}
+.sec-head h2{font-size:clamp(1.7rem,5vw,2.5rem);margin-top:6px}
+.sec-head p{color:var(--gun);margin-top:10px;max-width:60ch}
+
+/* Services */
+.svc-grid{display:grid;gap:14px}
+@media(min-width:680px){.svc-grid{grid-template-columns:1fr 1fr}}
+.svc{background:var(--bark);border:1px solid var(--line);border-radius:8px;padding:26px;display:flex;flex-direction:column;gap:10px;position:relative}
+.svc::before{content:"";position:absolute;left:0;top:24px;bottom:24px;width:3px;background:var(--amber);border-radius:2px}
+.svc h3{font-size:1.3rem}
+.svc p{color:var(--gun);font-size:.93rem;flex:1}
+.svc .price{font-family:'Barlow Condensed',sans-serif;font-weight:700;color:var(--amber);font-size:1.05rem;letter-spacing:.03em}
+.svc.moto::before{background:var(--claw)}
+
+/* Why / strength bars */
+.why{display:grid;gap:14px}
+@media(min-width:760px){.why{grid-template-columns:repeat(3,1fr)}}
+.why-card{background:var(--bark);border:1px solid var(--line);border-radius:8px;padding:24px}
+.why-card .ico{font-size:1.7rem;display:block;margin-bottom:10px}
+.why-card h3{font-size:1.15rem;margin-bottom:6px}
+.why-card p{font-size:.9rem;color:var(--gun)}
+
+/* Reviews */
+.rev-grid{display:grid;gap:14px}
+@media(min-width:760px){.rev-grid{grid-template-columns:repeat(3,1fr)}}
+.rev{background:var(--bark);border:1px solid var(--line);border-radius:8px;padding:22px}
+.rev .stars{color:var(--amber);letter-spacing:.16em;margin-bottom:10px;font-size:.9rem}
+.rev p{font-size:.92rem}
+.rev footer{margin-top:12px;font-family:'Barlow Condensed',sans-serif;letter-spacing:.06em;font-size:.8rem;color:var(--gun)}
+
+/* Booking */
+.book{background:var(--bark);border:1px solid var(--line);border-radius:10px;padding:30px 22px}
+@media(min-width:760px){.book{padding:44px}}
+form{display:grid;gap:14px;margin-top:8px}
+@media(min-width:680px){form{grid-template-columns:1fr 1fr}.full{grid-column:1/-1}}
+label{font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.8rem;color:var(--gun);display:block;margin-bottom:6px}
+input,select{width:100%;padding:13px 14px;border-radius:var(--radius);border:1px solid var(--line);background:var(--pitch);color:var(--bone);font:inherit;font-size:.95rem}
+input::placeholder{color:#6B5E48}
+input:focus-visible,select:focus-visible,.btn:focus-visible,a:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+select option{color:#15110C}
+button.btn-primary{border:0;cursor:pointer;font:inherit;justify-content:center}
+.form-note{font-size:.76rem;color:var(--gun);grid-column:1/-1}
+.form-ok{display:none;background:rgba(232,134,46,.12);border:1px solid var(--amber);border-radius:var(--radius);padding:14px;grid-column:1/-1;font-size:.92rem}
+
+/* Contact */
+.area{display:grid;gap:20px}
+@media(min-width:760px){.area{grid-template-columns:1fr 1fr}}
+.map-ph{border:1px dashed var(--line);border-radius:8px;min-height:240px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--gun);font-size:.86rem;background:var(--bark);padding:20px}
+.contact-card{background:var(--bark);border:1px solid var(--line);border-radius:8px;padding:26px;display:flex;flex-direction:column;gap:14px}
+.contact-card div strong{display:block;font-family:'Barlow Condensed',sans-serif;font-weight:700;letter-spacing:.1em;text-transform:uppercase;font-size:.74rem;color:var(--gun);margin-bottom:3px}
+.contact-card a{color:var(--amber);text-decoration:none;font-weight:700}
+.contact-card a:hover{text-decoration:underline}
+.areas-line{font-size:.88rem;color:var(--gun)}
+.ph-flag{color:var(--claw);font-weight:700}
+
+/* Footer */
+footer.site{border-top:1px solid var(--line);padding:28px 20px 110px;text-align:center;font-family:'Barlow Condensed',sans-serif;letter-spacing:.04em;font-size:.82rem;color:var(--gun)}
+footer.site a{color:var(--gun)}
+@media(min-width:760px){footer.site{padding-bottom:34px}}
+
+/* Sticky mobile call bar */
+.callbar{position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;gap:1px;background:var(--line);box-shadow:0 -6px 24px rgba(0,0,0,.5)}
+.callbar a{flex:1;text-align:center;padding:16px 8px;text-decoration:none;font-weight:700;font-size:.95rem;font-family:'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.05em}
+.callbar .c1{background:var(--amber);color:#1A1206}
+.callbar .c2{background:var(--bark-2);color:var(--bone)}
+@media(min-width:840px){.callbar{display:none}}
+</style>
+</head>
+<body>
+
+<div class="demo-ribbon">DEMO — φωτογραφίες, τιμές, κριτικές &amp; στοιχεία επικοινωνίας είναι ενδεικτικά / προς συμπλήρωση</div>
+
+<header>
+  <div class="nav">
+    <div class="logo"><span class="claw" aria-hidden="true">🐾</span><span>GRIZZLY<small>CAR PROTECTION · DETAILING</small></span></div>
+    <nav class="nav-links" aria-label="Κύριο μενού">
+      <a href="#ypiresies">Υπηρεσίες</a>
+      <a href="#giati">Γιατί εμάς</a>
+      <a href="#rantevou">Ραντεβού</a>
+      <a href="#epikoinonia">Επικοινωνία</a>
+    </nav>
+    <a class="call-pill" href="tel:+30XXXXXXXXXX">☎ [ΤΗΛΕΦΩΝΟ]</a>
+  </div>
+</header>
+
+<main>
+<div class="hero">
+  <div class="hero-grid">
+    <div>
+      <p class="eyebrow">Θεσσαλονίκη · Paint Protection</p>
+      <h1>Θωράκισε το <span>αμάξι σου</span></h1>
+      <p class="lede">Κεραμική προστασία, μεμβράνη PPF και detailing που κρατάει το χρώμα σαν καινούργιο — για χρόνια. Με τη δύναμη μιας αρκούδας.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="tel:+30XXXXXXXXXX">Κάλεσε τώρα</a>
+        <a class="btn btn-ghost" href="#rantevou">Κλείσε ραντεβού</a>
+      </div>
+    </div>
+    <aside class="shield" aria-label="Επίπεδα προστασίας">
+      <div class="shield-badge">
+        <span class="shield-ico" aria-hidden="true">🛡</span>
+        <div><h3>Επίπεδα Προστασίας</h3><span class="cond">Διάλεξε τη θωράκισή σου</span></div>
+      </div>
+      <div class="levels">
+        <div class="level"><span class="lbl">Κερί / Sealant</span><span class="bar"><i style="width:38%"></i></span><span class="yr">~3 μήνες</span></div>
+        <div class="level"><span class="lbl">Κεραμική Coating</span><span class="bar"><i style="width:72%"></i></span><span class="yr">2–3 χρόνια</span></div>
+        <div class="level"><span class="lbl">Μεμβράνη PPF</span><span class="bar"><i style="width:100%"></i></span><span class="yr">5+ χρόνια</span></div>
+      </div>
+      <p class="shield-note">Ενδεικτική απεικόνιση — τα ακριβή επίπεδα &amp; τιμές διαμορφώνονται από εσάς.</p>
+    </aside>
+  </div>
+</div>
+
+<section id="ypiresies">
+  <div class="sec-head">
+    <span class="idx">01 / ΥΠΗΡΕΣΙΕΣ</span>
+    <h2>Τι αναλαμβάνουμε</h2>
+    <p>Οι τιμές είναι ενδεικτικές «από» — διαμορφώνονται ανάλογα με το μέγεθος και την κατάσταση του οχήματος.</p>
+  </div>
+  <div class="svc-grid">
+    <article class="svc">
+      <h3>Κεραμική Προστασία</h3>
+      <p>Επίστρωση που θωρακίζει το χρώμα — υδροφοβική, ανθεκτική σε ρύπους και UV, με βαθιά λάμψη για χρόνια.</p>
+      <span class="price">από € XX</span>
+    </article>
+    <article class="svc">
+      <h3>Μεμβράνη Προστασίας (PPF)</h3>
+      <p>Διάφανη μεμβράνη που προστατεύει από γρατζουνιές, πετραδάκια και χτυπήματα. Η απόλυτη θωράκιση.</p>
+      <span class="price">από € XX</span>
+    </article>
+    <article class="svc">
+      <h3>Γυάλισμα &amp; διόρθωση χρώματος</h3>
+      <p>Αφαίρεση θαμπάδας, swirl marks και γρατζουνιών. Επαναφορά βάθους και λάμψης πριν την προστασία.</p>
+      <span class="price">από € XX</span>
+    </article>
+    <article class="svc moto">
+      <h3>Detailing &amp; βαθύς καθαρισμός</h3>
+      <p>Λεπτομερής εσωτερικός &amp; εξωτερικός καθαρισμός. Το αμάξι σαν να βγήκε απ' την αντιπροσωπεία.</p>
+      <span class="price">από € XX</span>
+    </article>
+  </div>
+</section>
+
+<section id="giati">
+  <div class="sec-head"><span class="idx">02 / ΓΙΑΤΙ ΕΜΑΣ</span><h2>Δουλειά που αντέχει</h2></div>
+  <div class="why">
+    <div class="why-card"><span class="ico" aria-hidden="true">🛡</span><h3>Πραγματική προστασία</h3><p>Δεν κάνουμε απλό πλύσιμο. Θωρακίζουμε το χρώμα για να κρατάει χρόνια, όχι μέρες.</p></div>
+    <div class="why-card"><span class="ico" aria-hidden="true">🔍</span><h3>Προσοχή στη λεπτομέρεια</h3><p>Κάθε όχημα ελέγχεται σπιθαμή προς σπιθαμή. Καμία λεπτομέρεια δεν ξεφεύγει.</p></div>
+    <div class="why-card"><span class="ico" aria-hidden="true">🏆</span><h3>Εμπειρία που φαίνεται</h3><p>Χιλιάδες οχήματα, εκατοντάδες ικανοποιημένοι πελάτες — δείτε το στις δουλειές μας.</p></div>
+  </div>
+</section>
+
+<section aria-label="Κριτικές πελατών">
+  <div class="sec-head"><span class="idx">03 / ΚΡΙΤΙΚΕΣ</span><h2>Τι λένε οι πελάτες</h2><p>Ενδεικτικές — στο τελικό site μπαίνουν οι πραγματικές σας κριτικές από Facebook &amp; Google.</p></div>
+  <div class="rev-grid">
+    <article class="rev"><div class="stars" aria-label="5 στα 5">★★★★★</div><p>«[Πραγματική κριτική πελάτη από τη σελίδα σας.]»</p><footer>ΠΕΛΑΤΗΣ</footer></article>
+    <article class="rev"><div class="stars" aria-label="5 στα 5">★★★★★</div><p>«[Πραγματική κριτική πελάτη από τη σελίδα σας.]»</p><footer>ΠΕΛΑΤΗΣ</footer></article>
+    <article class="rev"><div class="stars" aria-label="5 στα 5">★★★★★</div><p>«[Πραγματική κριτική πελάτη από τη σελίδα σας.]»</p><footer>ΠΕΛΑΤΗΣ</footer></article>
+  </div>
+</section>
+
+<section id="rantevou">
+  <div class="book">
+    <div class="sec-head"><span class="idx">04 / ΡΑΝΤΕΒΟΥ</span><h2>Κλείσε ραντεβού</h2><p>Συμπλήρωσε τη φόρμα και θα σε καλέσουμε για επιβεβαίωση — ή πάρε μας στο <span class="ph-flag">[ΤΗΛΕΦΩΝΟ]</span>.</p></div>
+    <form id="bookForm" novalidate>
+      <div><label for="f-name">Ονοματεπώνυμο</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+      <div><label for="f-phone">Τηλέφωνο</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+      <div><label for="f-car">Όχημα</label><input id="f-car" name="car" type="text" placeholder="π.χ. Audi A4, BMW X3"></div>
+      <div><label for="f-svc">Υπηρεσία</label>
+        <select id="f-svc" name="service">
+          <option>Κεραμική προστασία</option>
+          <option>Μεμβράνη PPF</option>
+          <option>Γυάλισμα &amp; διόρθωση χρώματος</option>
+          <option>Detailing / βαθύς καθαρισμός</option>
+          <option>Δεν είμαι σίγουρος/η — θέλω συμβουλή</option>
+        </select>
+      </div>
+      <div class="full"><label for="f-day">Προτιμώμενη μέρα</label><input id="f-day" name="day" type="text" placeholder="π.χ. Σάββατο πρωί"></div>
+      <p class="form-note">Τα στοιχεία σας χρησιμοποιούνται μόνο για την επικοινωνία σχετικά με το ραντεβού σας και δεν κοινοποιούνται σε τρίτους.</p>
+      <div class="form-ok" id="formOk">✓ Ευχαριστούμε! Θα σας καλέσουμε σύντομα. <em>(Demo — στη live έκδοση το αίτημα έρχεται στο email σας.)</em></div>
+      <button class="btn btn-primary full" type="submit">Στείλε το αίτημα</button>
+    </form>
+  </div>
+</section>
+
+<section id="epikoinonia">
+  <div class="sec-head"><span class="idx">05 / ΠΟΥ ΕΙΜΑΣΤΕ</span><h2>Έλα στη φωλιά μας</h2></div>
+  <div class="area">
+    <div class="map-ph">Εδώ μπαίνει διαδραστικός χάρτης Google<br>με την ακριβή τοποθεσία</div>
+    <div class="contact-card">
+      <div><strong>Διεύθυνση</strong><span class="ph-flag">[ΔΙΕΥΘΥΝΣΗ — προς συμπλήρωση]</span></div>
+      <div><strong>Τηλέφωνο</strong><span class="ph-flag">[ΤΗΛΕΦΩΝΟ — προς συμπλήρωση]</span></div>
+      <div><strong>Email</strong><span class="ph-flag">[EMAIL — προς συμπλήρωση]</span></div>
+      <div><strong>Ωράριο</strong>Με ραντεβού <span style="color:var(--gun)">(ενδεικτικό)</span></div>
+      <div><strong>Social</strong><a href="#">Facebook</a> · <a href="#">Instagram</a></div>
+      <p class="areas-line">Εξυπηρετούμε όλη τη Θεσσαλονίκη και τις γύρω περιοχές.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site">
+  © 2026 Grizzly Car Protection Detailing · Θεσσαλονίκη · <a href="#">Πολιτική Απορρήτου</a>
+  <br>Σελίδα προσχέδιο (demo) για παρουσίαση
+</footer>
+
+<nav class="callbar" aria-label="Γρήγορη επικοινωνία">
+  <a class="c1" href="tel:+30XXXXXXXXXX">☎ Κάλεσε τώρα</a>
+  <a class="c2" href="#rantevou">Κλείσε ραντεβού</a>
+</nav>
+
+<script>
+document.getElementById('bookForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('f-name'),phone=document.getElementById('f-phone');
+  if(!name.value.trim()){name.focus();return}
+  if(!phone.value.trim()){phone.focus();return}
+  document.getElementById('formOk').style.display='block';
+  this.querySelector('button').textContent='Το αίτημα στάλθηκε ✓';
+  this.querySelector('button').disabled=true;
+});
+</script>
+</body>
+</html>
